@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(to left, lightblue, lightgreen);
+}
+
+#theheader{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+}
+#paragraph{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+}
+#btn{
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    border: none rgba(255, 255, 255, 0.37);
+    background:rgba(255, 255, 255, 0.37);
+    font-size: 4.5rem;
+    color: grey;
+    font-weight: bolder;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+#btn:hover{
+    background: rgba(255, 255, 255, 0.55);
+    color: rgba(0, 0, 0, 0.6);
+    transition: all 300ms ease;
+}
+div{
+    margin-left: 30px;
+    
+}
+.textarea{
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    border: none rgba(255, 255, 255, 0.37);
+    background:rgba(255, 255, 255, 0.37);
+    font-size: 0.9rem;
+    color: grey;
+    font-weight: bolder;
+    resize: none;
+    outline: none;
+}
+textarea::placeholder{
+    color: grey;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-weight: lighter;
+
+}
+textarea:hover,
+textarea:focus{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
